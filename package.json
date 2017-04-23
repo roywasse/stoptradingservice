@@ -1,0 +1,27 @@
+{
+  "name": "stoptradingservice",
+  "version": "1.0.0",
+  "description": "Call this service to close all positions",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+	"dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "stoptradingservice"
+  },
+  "keywords": [
+    "stoptrading"
+  ],
+  "author": "Roy Wasse",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
